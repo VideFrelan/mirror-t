@@ -1,5 +1,6 @@
 # mirror-t lama versi sqlite
 ##### Source code situs mirroring defacer dengan PHP7 PDO, sqlite, PHP CURL
+##### Source code ini dibuat oleh IronSix, dan saya VideFrelan sebagai (PawN0)
 
 
 ### Pemasangan
