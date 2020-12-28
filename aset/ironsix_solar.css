@@ -1,0 +1,340 @@
+html {
+padding:15px;
+overflow-x:hidden;
+}
+
+body {
+max-width:800px;
+padding:10px;
+margin:0 auto;
+font-family:monospace, roman, arial;
+border:1px solid #44f;
+background:#121226;
+color:#e9e9e9;
+overflow-y:auto;
+overflow-x:auto;
+scrollbar-color:#448 #88f;
+font-size:16px;
+}
+
+hr {
+border:1px solid #44f;
+max-width:300px;
+}
+
+iframe {
+width:100%;
+max-width: 700px;
+min-height:400px;
+overflow:hidden;
+}
+
+.kelir {
+all:initial;
+* {
+all:unset;
+}
+clear:both;
+}
+
+.inblock {
+display:inline-block;
+}
+
+.head, .foot {
+padding:10px;
+background:#040414;
+text-align:center;
+text-decoration:none;
+}
+
+.foot {
+height:15px;
+font-size:12px;
+}
+
+.notice {
+padding:5px;
+margin:2px;
+border:1px solid #8283f4;
+background:#424288;
+color:#fff;
+word-break:break-all;
+word-wrap:break-word;
+font-size:12px;
+text-shadow:1px 1px #008;
+}
+
+.notice marquee {
+white-space:nowrap;
+font-size:12px;
+}
+
+.notifyinfo {
+background:#040414;
+padding:10px;
+word-break:break-all;
+word-wrap:break-word;
+font-size:12px;
+display:inline-block;
+}
+
+.content {
+padding:10px;
+}
+
+.smol {
+color:#859900;
+font-size:10px;
+font-weight:bold
+}
+
+.left {
+border:20px transparent;
+float:left;
+}
+
+.right {
+border:20px transparent;
+float:right;
+}
+
+.aleft {
+text-align:left;
+}
+
+.aright {
+text-align:right;
+
+.notifyinfo {
+
+}
+}
+
+.acenter {
+text-align:center;
+}
+
+.coded {
+font-weight:bold;
+font-size:10px;
+}
+
+.error {
+padding:5px;
+margin:2px;
+border:1px solid #f44;
+background:#800;
+color:#f44;
+word-break:break-all;
+word-wrap:break-word;
+}
+
+.success {
+padding:5px;
+margin:2px;
+border:1px solid #4f4;
+background:#080;
+color:#4f4;
+word-break:break-all;
+word-wrap:break-word;
+}
+
+.tampilmirror {
+max-height:400px;
+padding:5px;
+overflow-x:auto;
+overflow-y:auto;
+text-align:center;
+}
+
+.table {
+overflow-x:auto;
+overflow-y:auto;
+}
+
+table {
+width:100%;
+text-shadow: 1px 1px #004;
+}
+
+table td {
+white-space:nowrap;
+padding:0px 5px;
+background:#040414;
+font-size:12px;
+}
+
+table th {
+padding:5px;
+background:#424288;
+font-size:14px;
+}
+
+.infomirrot table {
+table-layout:fixed;
+}
+
+.infomirror table tbody tr td {
+white-space:normal;
+padding:5px;
+}
+
+.infomirror table tbody tr td:first-child {
+width:10em;
+min-width:10em;
+max-width:10em;
+word-break:break-all;
+}
+
+.infomirror table tbody tr td:nth-child(2) {
+width:1em;
+min-width:1em;
+max-width:1em;
+word-break:break-all;
+}
+
+.infomirror table tbody tr td:nth-child(3) {
+min-width:1em;
+max-width:5em;
+word-break:break-all;
+word-wrap:break-word;
+}
+
+.infogeo table tbody tr td {
+white-space:normal;
+padding:5px;
+}
+
+.infogeo table tbody tr td:first-child {
+width:12em;
+min-width:12em;
+max-width:12em;
+word-break:break-all;
+}
+
+.infogeo table tbody tr td:nth-child(2) {
+width:1em;
+min-width:1em;
+max-width:1em;
+word-break:break-all;
+}
+
+.infogeo table tbody tr td:nth-child(3) {
+min-width:1em;
+word-break:break-all;
+word-wrap:break-word;
+}
+
+.containercb {
+position:relative;
+padding:2px;
+margin-bottom:3px;
+}
+
+.containercb input[type=checkbox] {
+display:none;
+}
+
+.containercb input[type=checkbox]~b {
+cursor:pointer;
+outline:0;
+position:relative;
+display:inline-block;
+margin:0;
+border:1px solid #224;
+width:15px;
+height:15px;
+vertical-align:middle;
+text-align:center;
+line-height:0.7;
+font-size:18px;
+background:#448;
+color:#fff;
+}
+
+.containercb input[type=checkbox]:checked~b:after {
+content:'\2714\0020';
+}
+
+input, textarea {
+background:#224;
+color:#fff;
+border:1px solid #448;
+margin:5px;
+padding:5px;
+font-weight:bold;
+}
+
+input:hover, textarea:hover {
+background:#040414;
+border:1px solid #88f;
+}
+
+input[type=submit] {
+font-weight:bold;
+}
+
+.shead {
+position:absolute;
+display:hidden;
+visibility:hidden;
+}
+
+input[type=submit]:hover {
+background:#44f;
+}
+
+select {
+padding:5px;
+margin:5px;
+border:1px solid #448;
+background:#224;
+color:#fff;
+}
+
+select:hover {
+background:#040414;
+}
+
+.nav {
+padding:5px;
+}
+
+.selectnav {
+width:100%;
+}
+
+.pencarian {
+margin:0px;
+}
+
+.atas {
+display:inline-block;
+}
+
+::-webkit-scrollbar {
+width:5px;
+}
+
+::-webkit-scrollbar-track {
+background:#88f; 
+}
+ 
+::-webkit-scrollbar-thumb {
+background:#448; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background:#224; 
+}
+
+a, a:visited {
+color:#6684e1;
+text-decoration:none;
+}
+
+a:hover {
+color:#d73737;
+}
+
